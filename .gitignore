@@ -1,0 +1,37 @@
+# 大数据文件
+*.zip
+*.7z
+*.tar.gz
+
+# 分钟数据目录（Excel 文件太多太大）
+*_minute_*/
+
+# 输出结果目录（可从脚本重新生成）
+*_results/
+resampling_results/
+conditional_probability_results/
+conditional_oos_results/
+cross_universe_resampling_results/
+factor_ml_results/
+vix_ml_results/
+
+# 其他数据目录
+ashare_*/
+全A股*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude
+.claude/
